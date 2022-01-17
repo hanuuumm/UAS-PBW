@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bvgrs Eatry</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="header">
+    <h3> Bvgrs Eatry <i class="fas fa-shopping-basket"></i> </h3> 
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#othersDrinks">Others Drinks</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="AG.jpg" alt="">
+            <div class="content">
+                <h3>Ayam Geprek</h3>
+                <span class="price">Rp 15.000</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="ff.jpg" alt="">
+            <div class="content">
+                <h3>French Fries</h3>
+                <span class="price">Rp 13.000</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="C.jpg" alt="">
+            <div class="content">
+                <h3>Croffle</h3>
+                <span class="price">Rp 35.000</span>
+            </div>
+        </div>
+        <div class="total"> total : Rp 63.000 </div>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p>forget your password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+</header>
+
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>what do your order <span>Bvgrs Eatry</span> today?</h3>
+        <a href="" class="btn">Order Now</a>
+    </div>
+</section>
+
+<section class="features" id="features">
+    <h1 class="heading"> Our <span>Features</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="bs.jpg" alt="">
+            <h3>Best Seller</h3>
+        </div>
+
+        <div class="box">
+            <img src="freedelivery.png" alt="">
+            <h3>Delivery Order</h3>
+        </div>
+
+        <div class="box">
+            <img src="easypayment.png" alt="">
+            <h3>easy payments</h3>
+        </div>
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h1 class="heading"> Our <span>Products</span> </h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="AG.jpg" alt="">
+                <h3>Ayam Geprek</h3>
+                <div class="price">Rp 15.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="C.jpg" alt="">
+                <h3>Croffle</h3>
+                <div class="price">Rp 35.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="ds.jpg" alt="">
+                <h3>Dinsum</h3>
+                <div class="price">Rp 15.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="ff.jpg" alt="">
+                <h3>French Fries</h3>
+                <div class="price">Rp 13.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="fm.jpg" alt="">
+                <h3>Frappe Matcha</h3>
+                <div class="price">Rp 20.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="jc.jpg" alt="">
+                <h3>Watermelon Juice</h3>
+                <div class="price">Rp 12.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="rb.jpg" alt="">
+                <h3>Rice Bowl</h3>
+                <div class="price">Rp 20.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="tea.jpg" alt="">
+                <h3>Ice Tea</h3>
+                <div class="price">Rp 10.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="ng.jpg" alt="">
+                <h3>Fried Rice</h3>
+                <div class="price">Rp 25.000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="othersDrinks" id="othersDrinks">
+    <h1 class="heading"> Others <span>Drinks</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="orange.jpg" alt="Orange Smothies">
+            <h3>Orange Smothies</h3>
+            <p>Rp 15.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="lemonade (1).jpg" alt="Ice Lemonade">
+            <h3>Ice Lemonade</h3>
+            <p>Rp 15.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="cendol.jpg" alt="Ice Cendol">
+            <h3>Ice Cendol</h3>
+            <p>Rp 15.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="thaitea boba.jpg" alt="Thaitea Boba">
+            <h3>Ice Thaitea Boba</h3>
+            <p>Rp 18.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="cincau (1).jpg" alt="Ice Cincau">
+            <h3>Ice Cincau</h3>
+            <p>Rp 10.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="peanut.jpg" alt="Chocolate Peanut Smothies">
+            <h3>Chocolate Peanut Smothies</h3>
+            <p>Rp 25.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="yakult.jpg" alt="Ice Lechy Yakult">
+            <h3>Ice Lechy Yakult</h3>
+            <p>Rp 20.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="mw.jpg" alt="Mineral Water">
+            <h3>Mineral Water</h3>
+            <p>Rp 8.000</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#cart" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+<selection>
+    <div id="cart" class="cart-row">
+        <span class="cart-item cart-header cart-column">Item</span>
+        <span class="cart-price cart-header cart-column">Priece</span>
+        <span class="cart-quantity cart-header cart-column">Quantity</span>
+    </div>
+    <div class="cart-item"></div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <strong class="cart-total-priece">Rp0</strong>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
+
+</selection>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>About Bvgrs Eatry <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Hallo Eaters!! </p>
+            <p>Bvgrs Eatry merupakan usaha yang bergerak di bidang kuliner. Dimana Bvgrs Eatry menyajikan berbagai menu makanan moderen, terdapat pula menu tradisioanl yang kami sajikan.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> 082123456789 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> bvgrs.eatry@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Kebumen, Jawa Tengah, Indonesia </a>
+        </div>
+
+        <div class="box">
+            <h3>Menu</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Others Drinks </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+        </div>
+    </div>
+    <div class="credit"> created by <span> Hanum Fauziah Isnanto </span> | all rights reserved </div>
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
